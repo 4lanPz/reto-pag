@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/*barra navegacion superior*/
+.navegacion {
+    background-color: aqua;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.navegacion li {
+    margin: 1%;
+    display: inline-block;
+    list-style: none;
+    font-size: 25px;
+}
+.navegacion .logo {
+    float: left;
+}
+.navegacion .txt {
+    float: right;
+    margin-left: 3%;
+}
+/*Seccion central*/
+div {
+    display: block;
+}
+.DatosI {
+    align-items: center;
+    float: left;
+    display: flexbox;
+    background-color: bisque;
+    overflow: hidden;
+    padding: 0 3% 5%;
+}
+
+.DatosI p {
+    background-color: brown;
+    height: 140px;
+    width: 250px;
+    font-size: 25px;
+}
+
+.DatosD {
+    float:left;
+    background-color:rgb(142, 95, 253);
+    overflow:hidden;
+    font-size: 20px;
+    padding: 0 0 41% 2%;
+    width: 76.35%;
+    margin-left:0%;
+    font-size: 25px;
+}
+/*barra navegacion inferior*/
+.footer {
+    background-color: greenyellow;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    position: fixed; 
+    bottom: 0; 
+    width:100%; 
+    background-color:rgb(20, 99, 31); 
+    overflow:hidden; 
+    text-align:center; 
+}
+.footer li {
+    margin: 1%;
+    display: inline-block;
+    list-style: none;
+    font-size: 25px;
+}
+.footer .izquierda {
+    float: left;
+}
+.footer .derecha {
+    float: right;
+}
